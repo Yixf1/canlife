@@ -1,5 +1,5 @@
 $(function(){
-	$("#cart").hover(
+	$("#cartInfo").hover(
 		function(){
 			$(this).next().show();
 			$(this).css({opacity: 0.8});
@@ -9,7 +9,7 @@ $(function(){
 			$(this).css({opacity: 1});
 		}
 	);
-	$("#cartPanel").hover(
+	$("#cartPanelCon").hover(
 		function(){
 			$(this).show();
 			$(this).prev().css({opacity: 0.8});
